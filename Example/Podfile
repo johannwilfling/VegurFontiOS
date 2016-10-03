@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VegurFontiOS_Example' do
+  pod 'VegurFontiOS', :path => '../'
+
+  target 'VegurFontiOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
