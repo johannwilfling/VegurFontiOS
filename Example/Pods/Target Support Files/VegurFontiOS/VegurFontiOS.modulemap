@@ -1,0 +1,6 @@
+framework module VegurFontiOS {
+  umbrella header "VegurFontiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - VegurFontiOS (0.1.0)
+
+DEPENDENCIES:
+  - VegurFontiOS (from `../`)
+
+EXTERNAL SOURCES:
+  VegurFontiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VegurFontiOS: 559984780c3038c66189e2c7adec616d2a794ddb
+
+PODFILE CHECKSUM: e73951dd91996c543383abd18add5fc1e625a09a
+
+COCOAPODS: 1.0.1
