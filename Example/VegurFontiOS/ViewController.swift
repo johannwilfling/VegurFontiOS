@@ -8,11 +8,18 @@
 
 import UIKit
 
+import VegurFontiOS
+
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        label.text = "This is Vegur Font."
+        label.font = UIFont.vegurFontWithSize(17.0)
     }
 
     override func didReceiveMemoryWarning() {

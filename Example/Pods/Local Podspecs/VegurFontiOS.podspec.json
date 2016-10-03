@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "VegurFontiOS/Classes/**/*"
+  "source_files": "VegurFontiOS/Classes/**/*",
+  "resource_bundles": {
+    "VegurFontiOS": [
+      "VegurFontiOS/Assets/*.otf"
+    ]
+  }
 }
