@@ -1,16 +1,18 @@
+import Foundation
+
 public extension UIFont {
     
-    public class func vegurFontWithSize(fontSize: CGFloat) -> UIFont {
+    public class func vegurFontWithSize(_ fontSize: CGFloat) -> UIFont {
         FontLoader.loadFontIfNeeded()
         return UIFont(name: VegurFonts.VegurRegular.rawValue, size: fontSize)!
     }
     
-    public class func vegurLightFontWithSize(fontSize: CGFloat) -> UIFont {
+    public class func vegurLightFontWithSize(_ fontSize: CGFloat) -> UIFont {
         FontLoader.loadFontIfNeeded()
         return UIFont(name: VegurFonts.VegurLight.rawValue, size: fontSize)!
     }
-
-    public class func vegurBoldWithSize(fontSize: CGFloat) -> UIFont {
+    
+    public class func vegurBoldWithSize(_ fontSize: CGFloat) -> UIFont {
         FontLoader.loadFontIfNeeded()
         return UIFont(name: VegurFonts.VegurBold.rawValue, size: fontSize)!
     }
@@ -32,39 +34,31 @@ private enum VegurFonts: String {
 
 private class FontLoader {
     
-    struct Static {
-        static var onceToken : dispatch_once_t = 0
-    }
-    
     static func loadFontIfNeeded() {
-        if (UIFont.fontNamesForFamilyName(VegurFonts.FontFamilyName.rawValue).count == 0) {
+        if (UIFont.fontNames(forFamilyName: VegurFonts.FontFamilyName.rawValue).count == 0) {
+            let bundle = Bundle(for: FontLoader.self)
+            var fontURL: URL!
+            let identifier = bundle.bundleIdentifier
             
-            dispatch_once(&Static.onceToken) {
-                let bundle = NSBundle(forClass: FontLoader.self)
-                var fontURL = NSURL()
-                let identifier = bundle.bundleIdentifier
+            for vegurFont in VegurFonts.allValues {
+                if identifier?.hasPrefix("org.cocoapods") == true {
+                    fontURL = bundle.url(forResource: vegurFont.rawValue, withExtension: "otf", subdirectory: "VegurFontiOS.bundle")
+                } else {
+                    fontURL = bundle.url(forResource: vegurFont.rawValue, withExtension: "otf")
+                }
+                let data = try! Data(contentsOf: fontURL as URL)
+                let provider = CGDataProvider(data: data as CFData)
+                let font = CGFont(provider!)
                 
-                for vegurFont in VegurFonts.allValues {
-                    if identifier?.hasPrefix("org.cocoapods") == true {
-                        fontURL = bundle.URLForResource(vegurFont.rawValue, withExtension: "otf", subdirectory: "VegurFontiOS.bundle")!
-                    } else {
-                        fontURL = bundle.URLForResource(vegurFont.rawValue, withExtension: "otf")!
-                    }
-                    let data = NSData(contentsOfURL: fontURL)!
+                var error: Unmanaged<CFError>?
+                if !CTFontManagerRegisterGraphicsFont(font, &error) {
                     
-                    let provider = CGDataProviderCreateWithCFData(data)
-                    let font = CGFontCreateWithDataProvider(provider)!
-                    
-                    var error: Unmanaged<CFError>?
-                    if !CTFontManagerRegisterGraphicsFont(font, &error) {
-                        
-                        let errorDescription: CFStringRef = CFErrorCopyDescription(error!.takeUnretainedValue())
-                        let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
-                        NSException(name: NSInternalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
-                    }
-                    
+                    let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
+                    let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
+                    NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
                 }
             }
         }
     }
+
 }
