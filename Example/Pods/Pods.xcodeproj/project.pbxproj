@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		169FEDCC8D455187D842E11390A223BD /* VegurFontiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FC42BE8F9FAAA455EF97DF557C2BFB /* VegurFontiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2661FBC36B6417DFB296AC26F5740BF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		4065B2996899EFE38B3E4B96D5DD2860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		41FB5BC34449D16C9B4649982E68CE71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		6C310785A27D44EC1040A33E126E1B17 /* Vegur-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 172D3200D081F3D08E6611D7EF0573F3 /* Vegur-Regular.otf */; };
-		7386CCC2535C592FA14F1F3800498E1A /* Pods-VegurFontiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAFD71CC770201D587961C3242AE8AF /* Pods-VegurFontiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D002895AAEAEFC197BAAB70406E2C9C /* VegurFontiOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18746D56F322E3932201985FDB758A66 /* VegurFontiOS.bundle */; };
-		8132257E1C17A373BC3236D977E41B4B /* Pods-VegurFontiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB54E353D38F9201CCF6ADC90E2B1C0 /* Pods-VegurFontiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		835D6C790650BCCB512D5BD21B3549B7 /* VegurFontiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2474156541D5EB4746E12ACFA2E34AFF /* VegurFontiOS.swift */; };
-		8C8A557A6290FF2B4D59DE298017F5D6 /* Vegur-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C38F427AB153FEBE976FF267C31B7798 /* Vegur-Bold.otf */; };
-		A74FF6D3C9EC0007261962541D7B8064 /* Pods-VegurFontiOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C66FDCB9D4984F4F8ACA901B3FE70D /* Pods-VegurFontiOS_Example-dummy.m */; };
-		CF348B9ADE4BB071D00035698F42BDB9 /* Pods-VegurFontiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5548EEA84BFFA0470C8F35DF41B647 /* Pods-VegurFontiOS_Tests-dummy.m */; };
-		E04544F10AA5238627DA2FD4F4FFE8F6 /* Vegur-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50165A51B66AEB1F7D7B5A4B8E0B5B00 /* Vegur-Light.otf */; };
-		F15F9B5617E7FF807C3BBD2A7B6E8266 /* VegurFontiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B8D5A31B759C810FDA688D6FB4661E /* VegurFontiOS-dummy.m */; };
+		3DB90720FBEA3FD47354F38DBA0B66DF /* VegurFontiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FC42BE8F9FAAA455EF97DF557C2BFB /* VegurFontiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43978D85948E4A9175B30BB62804B6B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4FBCD778EC64472AB701533F335F2179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5FB2FEB76CE4E093B232A737FCCD4679 /* Pods-VegurFontiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAFD71CC770201D587961C3242AE8AF /* Pods-VegurFontiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BBE3D3D5D22219735934299DA22352E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6CB4F8D3C8D162AB5E192929DE2E5896 /* Vegur-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C38F427AB153FEBE976FF267C31B7798 /* Vegur-Bold.otf */; };
+		774753E405F8ED2EFAA501D9953E6624 /* VegurFontiOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18746D56F322E3932201985FDB758A66 /* VegurFontiOS.bundle */; };
+		84AEA6DD812B55705798415D8F64E234 /* Pods-VegurFontiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5548EEA84BFFA0470C8F35DF41B647 /* Pods-VegurFontiOS_Tests-dummy.m */; };
+		89D0F26CCBE1F0903B3BD96FCC183AB6 /* Vegur-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50165A51B66AEB1F7D7B5A4B8E0B5B00 /* Vegur-Light.otf */; };
+		8D9B71993DC948F3DDC860F0707A8B71 /* Pods-VegurFontiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB54E353D38F9201CCF6ADC90E2B1C0 /* Pods-VegurFontiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED579FBCEF5DBABA3AB39F42BBA96C8 /* Vegur-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 172D3200D081F3D08E6611D7EF0573F3 /* Vegur-Regular.otf */; };
+		CB8066295B371EB1EE385136982A3B77 /* Pods-VegurFontiOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C66FDCB9D4984F4F8ACA901B3FE70D /* Pods-VegurFontiOS_Example-dummy.m */; };
+		D730DD639A88EB66A9C6E0705F856128 /* VegurFontiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B8D5A31B759C810FDA688D6FB4661E /* VegurFontiOS-dummy.m */; };
+		FBD986F88B30F1085E41EFAC075998CF /* VegurFontiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2474156541D5EB4746E12ACFA2E34AFF /* VegurFontiOS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55824148A1A1EE06A168BF063E7EF739 /* PBXContainerItemProxy */ = {
+		39912FCCFCD6434E0C41AFB8C9896704 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8BDBFB4739C281512451D4758EBB41DD;
+			remoteGlobalIDString = 1C92CD2B0B6CDB24F9663A187646CAF5;
 			remoteInfo = "VegurFontiOS-VegurFontiOS";
 		};
-		CBB7EE84E358D46353E8DADBCC095231 /* PBXContainerItemProxy */ = {
+		C0A8E4AE80E5550A943299A1E3AE5025 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64FAC451CE5B178A12950C7E145CA2D9;
+			remoteGlobalIDString = CBDD049D8AFC2E38ACDDA2ABCF4F3844;
 			remoteInfo = VegurFontiOS;
 		};
 /* End PBXContainerItemProxy section */
@@ -70,9 +70,9 @@
 		C8D7F9F6EDAF812B263CC77546D2414B /* Pods-VegurFontiOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VegurFontiOS_Example-resources.sh"; sourceTree = "<group>"; };
 		CAD9F5F8658FF6A2F5F9D331E3373E55 /* Pods-VegurFontiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VegurFontiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB081BA90947379B4D81DD045B617BF2 /* Pods_VegurFontiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VegurFontiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD51D323168E061A739306E07AEC6930 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF1CDA9868832C78FE5BC218C466D13 /* VegurFontiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VegurFontiOS.modulemap; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3B8D5A31B759C810FDA688D6FB4661E /* VegurFontiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VegurFontiOS-dummy.m"; sourceTree = "<group>"; };
 		D49CD3BCE0ED3E8D6CEA541713C8E293 /* Pods-VegurFontiOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VegurFontiOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EAB54E353D38F9201CCF6ADC90E2B1C0 /* Pods-VegurFontiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VegurFontiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -81,34 +81,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80D4DE0F10E18C564B63C539223E6BB0 /* Frameworks */ = {
+		9D598CD31C3966CB822515E6B8D6F048 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2661FBC36B6417DFB296AC26F5740BF7 /* Foundation.framework in Frameworks */,
+				43978D85948E4A9175B30BB62804B6B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B65F205934F8D8132A203B5F8880BB82 /* Frameworks */ = {
+		BB5079F99CAE22139E52FF075A1A5C32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4065B2996899EFE38B3E4B96D5DD2860 /* Foundation.framework in Frameworks */,
+				4FBCD778EC64472AB701533F335F2179 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E42333CF7B18F6F91A830133B81FF9BB /* Frameworks */ = {
+		C759E2858A6C3986C80A5E8C7136C92C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41FB5BC34449D16C9B4649982E68CE71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F08E84A63CC6E21B02D81ECA9A45AB5B /* Frameworks */ = {
+		FA5DD90CFDDA2332AFA89402734CB9D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBE3D3D5D22219735934299DA22352E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,14 +145,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		66583CDF7FC81B978990EF4A87595CA4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +158,14 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/VegurFontiOS";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -234,7 +234,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -277,94 +277,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8538ED6B2404DCB72E565027B05F4DFB /* Headers */ = {
+		0607D4F8F49DCED7CE25E4942F52341D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7386CCC2535C592FA14F1F3800498E1A /* Pods-VegurFontiOS_Example-umbrella.h in Headers */,
+				8D9B71993DC948F3DDC860F0707A8B71 /* Pods-VegurFontiOS_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D89F5438B8781A4CD85E469ABC52486D /* Headers */ = {
+		1F79AA476DC14AFDAF18331D41FA08E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8132257E1C17A373BC3236D977E41B4B /* Pods-VegurFontiOS_Tests-umbrella.h in Headers */,
+				3DB90720FBEA3FD47354F38DBA0B66DF /* VegurFontiOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB03AAAA8AE4100E8B52A2481FE24663 /* Headers */ = {
+		6EE265F96715EBAF401555331521DCF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				169FEDCC8D455187D842E11390A223BD /* VegurFontiOS-umbrella.h in Headers */,
+				5FB2FEB76CE4E093B232A737FCCD4679 /* Pods-VegurFontiOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4623259326648049197BDC90B3FBCED6 /* Pods-VegurFontiOS_Tests */ = {
+		1C92CD2B0B6CDB24F9663A187646CAF5 /* VegurFontiOS-VegurFontiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2F046CDB7C5B3054CEA0FA4AC4FE475 /* Build configuration list for PBXNativeTarget "Pods-VegurFontiOS_Tests" */;
+			buildConfigurationList = EAB34A52D97A0BEA46CC39EB9C4CB959 /* Build configuration list for PBXNativeTarget "VegurFontiOS-VegurFontiOS" */;
 			buildPhases = (
-				6A12477609AB9EB2702E2B9C7833E838 /* Sources */,
-				80D4DE0F10E18C564B63C539223E6BB0 /* Frameworks */,
-				D89F5438B8781A4CD85E469ABC52486D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-VegurFontiOS_Tests";
-			productName = "Pods-VegurFontiOS_Tests";
-			productReference = 0E8EDAA58233DEDB92AD3DC4DF76B09A /* Pods_VegurFontiOS_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6264A3456E0901A57BCE4B9E1F5B6802 /* Pods-VegurFontiOS_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 09305D1F24306C695F7B95CD2B983997 /* Build configuration list for PBXNativeTarget "Pods-VegurFontiOS_Example" */;
-			buildPhases = (
-				FCCBDEAD2E1FD5C1ADF550F9C38FE5ED /* Sources */,
-				E42333CF7B18F6F91A830133B81FF9BB /* Frameworks */,
-				8538ED6B2404DCB72E565027B05F4DFB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E6CCEAE9D2C00DE9039AF7B85C448FBD /* PBXTargetDependency */,
-			);
-			name = "Pods-VegurFontiOS_Example";
-			productName = "Pods-VegurFontiOS_Example";
-			productReference = CB081BA90947379B4D81DD045B617BF2 /* Pods_VegurFontiOS_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		64FAC451CE5B178A12950C7E145CA2D9 /* VegurFontiOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8890C4ECC9CF8DF1A9EE67121AA47F7A /* Build configuration list for PBXNativeTarget "VegurFontiOS" */;
-			buildPhases = (
-				9719CCBC0C427897069CB99E4284D2F7 /* Sources */,
-				B65F205934F8D8132A203B5F8880BB82 /* Frameworks */,
-				5DD0F266238B12EBEB02DB06373D3D4F /* Resources */,
-				EB03AAAA8AE4100E8B52A2481FE24663 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D1220551983807263BF8188D069F088 /* PBXTargetDependency */,
-			);
-			name = VegurFontiOS;
-			productName = VegurFontiOS;
-			productReference = 1BDD8469FABF3721B3ECFD99B3210416 /* VegurFontiOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8BDBFB4739C281512451D4758EBB41DD /* VegurFontiOS-VegurFontiOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 678DBC1A047C00A5E037936C2C4CE44F /* Build configuration list for PBXNativeTarget "VegurFontiOS-VegurFontiOS" */;
-			buildPhases = (
-				8D6C3C744C0EC7EF70BAB61542EF46C1 /* Sources */,
-				F08E84A63CC6E21B02D81ECA9A45AB5B /* Frameworks */,
-				C89F7EF776A54FA077144DCD5B981B10 /* Resources */,
+				DD753F11EF7BF028A1DC418977830F29 /* Sources */,
+				C759E2858A6C3986C80A5E8C7136C92C /* Frameworks */,
+				DCF2A32A1956052EEA8A4678742F9CCA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -375,6 +321,60 @@
 			productReference = 18746D56F322E3932201985FDB758A66 /* VegurFontiOS.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		6E292BF8F823A56CB0F8CB37E4C6E3FF /* Pods-VegurFontiOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FEB5F156D6E4F95EEBC8A3D5BE22EF /* Build configuration list for PBXNativeTarget "Pods-VegurFontiOS_Example" */;
+			buildPhases = (
+				21E2593EE009F2D225ACFC30F18277FC /* Sources */,
+				BB5079F99CAE22139E52FF075A1A5C32 /* Frameworks */,
+				6EE265F96715EBAF401555331521DCF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC3D63C4D5EF9927DEC0D0C12C1EDD3 /* PBXTargetDependency */,
+			);
+			name = "Pods-VegurFontiOS_Example";
+			productName = "Pods-VegurFontiOS_Example";
+			productReference = CB081BA90947379B4D81DD045B617BF2 /* Pods_VegurFontiOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBDD049D8AFC2E38ACDDA2ABCF4F3844 /* VegurFontiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713EA7AFDE403113818D79F7090CCDBD /* Build configuration list for PBXNativeTarget "VegurFontiOS" */;
+			buildPhases = (
+				30F4B1BB325F8081AC57F747DD678DB6 /* Sources */,
+				9D598CD31C3966CB822515E6B8D6F048 /* Frameworks */,
+				0977CD74AD9194C380557E125029599D /* Resources */,
+				1F79AA476DC14AFDAF18331D41FA08E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F28737C28E8B5E79DE6075E2B8BDB09 /* PBXTargetDependency */,
+			);
+			name = VegurFontiOS;
+			productName = VegurFontiOS;
+			productReference = 1BDD8469FABF3721B3ECFD99B3210416 /* VegurFontiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECE5C4B2E582770B4A736E437D6FA88D /* Pods-VegurFontiOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1317885AFC8F08F0A017C5FAFE6821D /* Build configuration list for PBXNativeTarget "Pods-VegurFontiOS_Tests" */;
+			buildPhases = (
+				DF52BCF5CDD2879F71C3B23CD1806E4B /* Sources */,
+				FA5DD90CFDDA2332AFA89402734CB9D7 /* Frameworks */,
+				0607D4F8F49DCED7CE25E4942F52341D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VegurFontiOS_Tests";
+			productName = "Pods-VegurFontiOS_Tests";
+			productReference = 0E8EDAA58233DEDB92AD3DC4DF76B09A /* Pods_VegurFontiOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -383,6 +383,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					6E292BF8F823A56CB0F8CB37E4C6E3FF = {
+						LastSwiftMigration = 0810;
+					};
+					CBDD049D8AFC2E38ACDDA2ABCF4F3844 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -396,125 +404,122 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6264A3456E0901A57BCE4B9E1F5B6802 /* Pods-VegurFontiOS_Example */,
-				4623259326648049197BDC90B3FBCED6 /* Pods-VegurFontiOS_Tests */,
-				64FAC451CE5B178A12950C7E145CA2D9 /* VegurFontiOS */,
-				8BDBFB4739C281512451D4758EBB41DD /* VegurFontiOS-VegurFontiOS */,
+				6E292BF8F823A56CB0F8CB37E4C6E3FF /* Pods-VegurFontiOS_Example */,
+				ECE5C4B2E582770B4A736E437D6FA88D /* Pods-VegurFontiOS_Tests */,
+				CBDD049D8AFC2E38ACDDA2ABCF4F3844 /* VegurFontiOS */,
+				1C92CD2B0B6CDB24F9663A187646CAF5 /* VegurFontiOS-VegurFontiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5DD0F266238B12EBEB02DB06373D3D4F /* Resources */ = {
+		0977CD74AD9194C380557E125029599D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D002895AAEAEFC197BAAB70406E2C9C /* VegurFontiOS.bundle in Resources */,
+				774753E405F8ED2EFAA501D9953E6624 /* VegurFontiOS.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C89F7EF776A54FA077144DCD5B981B10 /* Resources */ = {
+		DCF2A32A1956052EEA8A4678742F9CCA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8A557A6290FF2B4D59DE298017F5D6 /* Vegur-Bold.otf in Resources */,
-				E04544F10AA5238627DA2FD4F4FFE8F6 /* Vegur-Light.otf in Resources */,
-				6C310785A27D44EC1040A33E126E1B17 /* Vegur-Regular.otf in Resources */,
+				6CB4F8D3C8D162AB5E192929DE2E5896 /* Vegur-Bold.otf in Resources */,
+				89D0F26CCBE1F0903B3BD96FCC183AB6 /* Vegur-Light.otf in Resources */,
+				AED579FBCEF5DBABA3AB39F42BBA96C8 /* Vegur-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6A12477609AB9EB2702E2B9C7833E838 /* Sources */ = {
+		21E2593EE009F2D225ACFC30F18277FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF348B9ADE4BB071D00035698F42BDB9 /* Pods-VegurFontiOS_Tests-dummy.m in Sources */,
+				CB8066295B371EB1EE385136982A3B77 /* Pods-VegurFontiOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D6C3C744C0EC7EF70BAB61542EF46C1 /* Sources */ = {
+		30F4B1BB325F8081AC57F747DD678DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D730DD639A88EB66A9C6E0705F856128 /* VegurFontiOS-dummy.m in Sources */,
+				FBD986F88B30F1085E41EFAC075998CF /* VegurFontiOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD753F11EF7BF028A1DC418977830F29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9719CCBC0C427897069CB99E4284D2F7 /* Sources */ = {
+		DF52BCF5CDD2879F71C3B23CD1806E4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F15F9B5617E7FF807C3BBD2A7B6E8266 /* VegurFontiOS-dummy.m in Sources */,
-				835D6C790650BCCB512D5BD21B3549B7 /* VegurFontiOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCCBDEAD2E1FD5C1ADF550F9C38FE5ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A74FF6D3C9EC0007261962541D7B8064 /* Pods-VegurFontiOS_Example-dummy.m in Sources */,
+				84AEA6DD812B55705798415D8F64E234 /* Pods-VegurFontiOS_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D1220551983807263BF8188D069F088 /* PBXTargetDependency */ = {
+		6F28737C28E8B5E79DE6075E2B8BDB09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "VegurFontiOS-VegurFontiOS";
-			target = 8BDBFB4739C281512451D4758EBB41DD /* VegurFontiOS-VegurFontiOS */;
-			targetProxy = 55824148A1A1EE06A168BF063E7EF739 /* PBXContainerItemProxy */;
+			target = 1C92CD2B0B6CDB24F9663A187646CAF5 /* VegurFontiOS-VegurFontiOS */;
+			targetProxy = 39912FCCFCD6434E0C41AFB8C9896704 /* PBXContainerItemProxy */;
 		};
-		E6CCEAE9D2C00DE9039AF7B85C448FBD /* PBXTargetDependency */ = {
+		AAC3D63C4D5EF9927DEC0D0C12C1EDD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VegurFontiOS;
-			target = 64FAC451CE5B178A12950C7E145CA2D9 /* VegurFontiOS */;
-			targetProxy = CBB7EE84E358D46353E8DADBCC095231 /* PBXContainerItemProxy */;
+			target = CBDD049D8AFC2E38ACDDA2ABCF4F3844 /* VegurFontiOS */;
+			targetProxy = C0A8E4AE80E5550A943299A1E3AE5025 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		253878AE535FF04D2F46329BC6862A7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD9F5F8658FF6A2F5F9D331E3373E55 /* Pods-VegurFontiOS_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VegurFontiOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VegurFontiOS_Tests/Pods-VegurFontiOS_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VegurFontiOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		13FE2371DB30953348A9CDACD3C002AB /* Release */ = {
+		57CCF8D079F06E3911DE29E46A04EC9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C72012B3E9BBD804B0FBF0C29DA80CC /* VegurFontiOS.xcconfig */;
 			buildSettings = {
@@ -531,144 +536,13 @@
 			};
 			name = Release;
 		};
-		2540E92136FBD34DC4AD1BD78EC53267 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72C82701AFEC2CD407BA0DA634A797AA /* Pods-VegurFontiOS_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VegurFontiOS_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VegurFontiOS_Example/Pods-VegurFontiOS_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VegurFontiOS_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		26ACD6CE66902BB7BE8A861CD33AC5DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AC617DB64DE128FBAC1B95710E12B2B /* Pods-VegurFontiOS_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VegurFontiOS_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VegurFontiOS_Tests/Pods-VegurFontiOS_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VegurFontiOS_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5AA88AD55FCA5333D82306F596506109 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B382D484A23103D2A31A5B86BFCC3031 /* Pods-VegurFontiOS_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VegurFontiOS_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VegurFontiOS_Example/Pods-VegurFontiOS_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VegurFontiOS_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		97495014EE9F4FA579419D05C7493CB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAD9F5F8658FF6A2F5F9D331E3373E55 /* Pods-VegurFontiOS_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VegurFontiOS_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VegurFontiOS_Tests/Pods-VegurFontiOS_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VegurFontiOS_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C1648E0D0BA15FA7B1AE6281A9841EBC /* Release */ = {
+		5E424AEE69E3890859696E7BE75B1328 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C72012B3E9BBD804B0FBF0C29DA80CC /* VegurFontiOS.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -687,13 +561,47 @@
 				PRODUCT_NAME = VegurFontiOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		CEE1B34A5C065F2D095748DA3ADFA30D /* Debug */ = {
+		822C0A3DD9F6A1452CAB315C4FB9504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C72012B3E9BBD804B0FBF0C29DA80CC /* VegurFontiOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VegurFontiOS/VegurFontiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VegurFontiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VegurFontiOS/VegurFontiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VegurFontiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		838CBE359BB8E2EEBA96C05007C38F29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C72012B3E9BBD804B0FBF0C29DA80CC /* VegurFontiOS.xcconfig */;
 			buildSettings = {
@@ -710,7 +618,7 @@
 			};
 			name = Debug;
 		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -728,6 +636,47 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -747,16 +696,19 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F36D876D34B6E8D3F4B8E526EAE861D0 /* Debug */ = {
+		A9B25DCAF3113D339A45B4A78E74872C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C72012B3E9BBD804B0FBF0C29DA80CC /* VegurFontiOS.xcconfig */;
+			baseConfigurationReference = 5AC617DB64DE128FBAC1B95710E12B2B /* Pods-VegurFontiOS_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -765,17 +717,93 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VegurFontiOS/VegurFontiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VegurFontiOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-VegurFontiOS_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VegurFontiOS/VegurFontiOS.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VegurFontiOS_Tests/Pods-VegurFontiOS_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = VegurFontiOS;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VegurFontiOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAC94CF6D4F6B4C2D634BC03CCAF7CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B382D484A23103D2A31A5B86BFCC3031 /* Pods-VegurFontiOS_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VegurFontiOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VegurFontiOS_Example/Pods-VegurFontiOS_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VegurFontiOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC3D9929B39F59C994B558723282288F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C82701AFEC2CD407BA0DA634A797AA /* Pods-VegurFontiOS_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VegurFontiOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VegurFontiOS_Example/Pods-VegurFontiOS_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VegurFontiOS_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -785,47 +813,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09305D1F24306C695F7B95CD2B983997 /* Build configuration list for PBXNativeTarget "Pods-VegurFontiOS_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2540E92136FBD34DC4AD1BD78EC53267 /* Debug */,
-				5AA88AD55FCA5333D82306F596506109 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		678DBC1A047C00A5E037936C2C4CE44F /* Build configuration list for PBXNativeTarget "VegurFontiOS-VegurFontiOS" */ = {
+		713EA7AFDE403113818D79F7090CCDBD /* Build configuration list for PBXNativeTarget "VegurFontiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEE1B34A5C065F2D095748DA3ADFA30D /* Debug */,
-				13FE2371DB30953348A9CDACD3C002AB /* Release */,
+				822C0A3DD9F6A1452CAB315C4FB9504B /* Debug */,
+				5E424AEE69E3890859696E7BE75B1328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8890C4ECC9CF8DF1A9EE67121AA47F7A /* Build configuration list for PBXNativeTarget "VegurFontiOS" */ = {
+		98FEB5F156D6E4F95EEBC8A3D5BE22EF /* Build configuration list for PBXNativeTarget "Pods-VegurFontiOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F36D876D34B6E8D3F4B8E526EAE861D0 /* Debug */,
-				C1648E0D0BA15FA7B1AE6281A9841EBC /* Release */,
+				EC3D9929B39F59C994B558723282288F /* Debug */,
+				DAC94CF6D4F6B4C2D634BC03CCAF7CB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2F046CDB7C5B3054CEA0FA4AC4FE475 /* Build configuration list for PBXNativeTarget "Pods-VegurFontiOS_Tests" */ = {
+		E1317885AFC8F08F0A017C5FAFE6821D /* Build configuration list for PBXNativeTarget "Pods-VegurFontiOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26ACD6CE66902BB7BE8A861CD33AC5DB /* Debug */,
-				97495014EE9F4FA579419D05C7493CB2 /* Release */,
+				A9B25DCAF3113D339A45B4A78E74872C /* Debug */,
+				253878AE535FF04D2F46329BC6862A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB34A52D97A0BEA46CC39EB9C4CB959 /* Build configuration list for PBXNativeTarget "VegurFontiOS-VegurFontiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838CBE359BB8E2EEBA96C05007C38F29 /* Debug */,
+				57CCF8D079F06E3911DE29E46A04EC9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

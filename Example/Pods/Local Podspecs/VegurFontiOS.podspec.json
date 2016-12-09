@@ -1,18 +1,15 @@
 {
   "name": "VegurFontiOS",
   "version": "0.1.0",
-  "summary": "A short description of VegurFontiOS.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/VegurFontiOS",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "summary": "Provides the font family Vegur.",
+  "description": "Provides the font family Vegur for iOS.",
+  "homepage": "https://github.com/johannwilfling/VegurFontiOS",
+  "license": "MIT",
   "authors": {
     "Johann Wilfling": "johann.wilfling@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/VegurFontiOS.git",
+    "git": "https://github.com/johannwilfling/VegurFontiOS.git",
     "tag": "0.1.0"
   },
   "platforms": {
